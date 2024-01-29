@@ -23,7 +23,7 @@ export class ActianCareersController {
         const result = await this.actianCareerService.getOpenPositions(
           this.actionCareersUrl
         );
-
+        //console.log(`${JSON.stringify(result, null, 2)}`);
         const specificDepartment = result.find((element) => {
           return element.department === department;
         });
