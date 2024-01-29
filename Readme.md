@@ -36,8 +36,8 @@ This is a simple restful application which extracts the open positions for a dep
 ## Restful API
 
 +--------+------------------------------+
-Method | URI
+  Method | URI
 +--------+------------------------------+
-GET | /health
-GET | /getOpenPositions
+  GET    | /health
+  GET    | /getOpenPositions
 +--------+------------------------------+
