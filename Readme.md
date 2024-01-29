@@ -8,13 +8,12 @@ This is a simple restful application which extracts the open positions for a dep
 
 # Table on Contents <!-- omit in toc -->
 
-- [Process Flow](#process-flow)
+- [Architecture](#architecture)
 - [Features](#features)
 - [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
 - [Restful API](#restful-api)
 
-## Process Flow
+## Architecture
 
 ![Process Flow](/docs/images/processFlow.jpeg)
 
@@ -44,8 +43,6 @@ Mounts the **router** under the **/** path.
 ```cmd
    npm run start:dev
 ```
-
-## Project Structure
 
 ## Restful API
 ```sh 
