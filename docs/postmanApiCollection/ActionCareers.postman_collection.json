@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "9862ac25-c6ba-40a5-905b-aa2491c2bdb9",
+		"name": "ActionCareers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28040549"
+	},
+	"item": [
+		{
+			"name": "getOpenPositions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getOpenPositions?department=Engineering",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getOpenPositions"
+					],
+					"query": [
+						{
+							"key": "department",
+							"value": "Engineering"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
