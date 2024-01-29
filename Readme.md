@@ -10,6 +10,8 @@ This is a simple restful application which extracts the open positions for a dep
 
 - [Process Flow](#process-flow)
 - [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [Restful API](#restful-api)
 
 ## Process Flow
 
@@ -28,3 +30,14 @@ This is a simple restful application which extracts the open positions for a dep
 ```cmd
    npm run start:dev
 ```
+
+## Project Structure
+
+## Restful API
+
++--------+------------------------------+
+Method | URI
++--------+------------------------------+
+GET | /health
+GET | /getOpenPositions
++--------+------------------------------+
